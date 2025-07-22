@@ -1,0 +1,36 @@
+.text-weight-s {
+  font-weight: 100;
+}
+
+.text-weight-n {
+  font-weight: 400;
+}
+
+.text-weight-b {
+  font-weight: 600;
+}
+
+.card-view {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.u-p-t-status-bar-height {
+  padding-top: var(--status-bar-height);
+}
+
+.u-status-bar {
+  height: var(--status-bar-height);
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.page-container {
+  height: 100%;
+  background: #f5f6fa;
+}

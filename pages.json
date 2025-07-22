@@ -1,0 +1,152 @@
+{
+  "pages": [{
+      "path": "pages/home-page/home-page",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/my/my",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/mall/mall",
+      "style": {
+        "navigationBarTitleText": "商城"
+      }
+    },
+    {
+      "path": "pages/user/login",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/user/register",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "注册"
+      }
+    },
+    {
+      "path": "pages/my/user-setting/user-setting",
+      "style": {
+        "navigationBarTitleText": "用户配置"
+      }
+    },
+    {
+      "path": "pages/mall/machine-detail/machine-detail",
+      "style": {
+        "navigationBarTitleText": "矿机详情"
+      }
+    },
+    {
+      "path": "pages/my/about/about",
+      "style": {
+        "navigationBarTitleText": "关于我们"
+      }
+    },
+    {
+      "path": "pages/my/order/order",
+      "style": {
+        "navigationBarTitleText": "我的订单"
+      }
+    },
+    {
+      "path": "pages/my/order/order-machine-detail",
+      "style": {
+        "navigationBarTitleText": "矿机交易订单详情"
+      }
+    },
+    {
+      "path": "pages/my/order/operation-details",
+      "style": {
+        "navigationBarTitleText": "矿机运行详情"
+      }
+    },
+    {
+      "path": "pages/my/property/property",
+      "style": {
+        "navigationBarTitleText": "我的资产"
+      }
+    },
+    {
+      "path": "pages/my/bill/bill",
+      "style": {
+        "navigationBarTitleText": "我的账单"
+      }
+    },
+    {
+      "path": "pages/my/order/order-pay",
+      "style": {
+        "navigationBarTitleText": "缴纳费用"
+      }
+    },
+    {
+      "path": "pages/my/help/help",
+      "style": {
+        "navigationBarTitleText": "帮助中心"
+      }
+    },
+    {
+      "path": "pages/my/help/help-question",
+      "style": {
+        "navigationBarTitleText": "常见问题"
+      }
+    },
+    {
+      "path": "pages/my/help/help-money-tips",
+      "style": {
+        "navigationBarTitleText": "反洗钱指引"
+      }
+    },
+    {
+      "path": "pages/my/help/help-law-tips",
+      "style": {
+        "navigationBarTitleText": "法律声明"
+      }
+    },
+    {
+      "path": "pages/my/help/help-join-us",
+      "style": {
+        "navigationBarTitleText": "加入我们"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "height": "64px",
+    "color": "#8F8F94",
+    "selectedColor": "#000",
+    "list": [{
+        "pagePath": "pages/home-page/home-page",
+        "iconPath": "static/image/tab/2.png",
+        "selectedIconPath": "/static/image/tab/2_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/mall/mall",
+        "iconPath": "static/image/tab/1.png",
+        "selectedIconPath": "/static/image/tab/1_active.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/image/tab/3.png",
+        "selectedIconPath": "/static/image/tab/3_active.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
