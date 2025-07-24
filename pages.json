@@ -115,6 +115,20 @@
       "style": {
         "navigationBarTitleText": "加入我们"
       }
+    },
+    {
+      "path" : "pages/my/coin-address/coin-address",
+      "style" : 
+      {
+        "navigationBarTitleText" : "提币地址"
+      }
+    },
+    {
+      "path" : "pages/my/coin-address/create-coin-address",
+      "style" : 
+      {
+        "navigationBarTitleText" : "添加提币地址"
+      }
     }
   ],
   "globalStyle": {
