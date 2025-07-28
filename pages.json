@@ -117,17 +117,39 @@
       }
     },
     {
-      "path" : "pages/my/coin-address/coin-address",
-      "style" : 
-      {
-        "navigationBarTitleText" : "提币地址"
+      "path": "pages/my/coin-address/coin-address",
+      "style": {
+        "navigationBarTitleText": "提币地址"
       }
     },
     {
-      "path" : "pages/my/coin-address/create-coin-address",
-      "style" : 
-      {
-        "navigationBarTitleText" : "添加提币地址"
+      "path": "pages/my/coin-address/create-coin-address",
+      "style": {
+        "navigationBarTitleText": "添加提币地址"
+      }
+    },
+    {
+      "path": "pages/my/user-setting/login-account",
+      "style": {
+        "navigationBarTitleText": "登录帐号"
+      }
+    },
+    {
+      "path": "pages/my/user-setting/bind-email",
+      "style": {
+        "navigationBarTitleText": "绑定邮箱"
+      }
+    },
+    {
+      "path": "pages/my/user-setting/reset-pwd",
+      "style": {
+        "navigationBarTitleText": "修改密码"
+      }
+    },
+    {
+      "path": "pages/my/user-setting/nick-name",
+      "style": {
+        "navigationBarTitleText": "修改昵称"
       }
     }
   ],

@@ -12,13 +12,13 @@
         </view>
       </view>
       <view class="r-s">
-        <u-icon name="setting" size="36" @click="goTo('/pages/my/mySettingNickname')" />
+        <u-icon name="setting" size="36" @click="goTo('/pages/my/user-setting/nick-name')" />
       </view>
     </view>
     <u-cell-group :border="false" class="card-view">
-      <u-cell-item title="登录帐号" isLink @click="goTo('/pages/my/mySettingName')" />
-      <u-cell-item title="绑定邮箱" isLink @click="goTo('/pages/my/mySettingEmail')" />
-      <u-cell-item :border-bottom="false" title="修改密码" isLink @click="goTo('/pages/my/mySettingResetPwd')" />
+      <u-cell-item title="登录帐号" isLink @click="goTo('/pages/my/user-setting/login-account')" />
+      <u-cell-item title="绑定邮箱" isLink @click="goTo('/pages/my/user-setting/bind-email')" />
+      <u-cell-item :border-bottom="false" title="修改密码" isLink @click="goTo('/pages/my/user-setting/reset-pwd')" />
     </u-cell-group>
     <view class="exit-btn-wrap">
       <u-button class="exit-btn" type="error" shape="circle" @click="showLogout = true">退出登录</u-button>
