@@ -1,0 +1,14 @@
+# 忽略外部引用包
+/node_modules/
+/unpackage/
+/dist/
+/yarn.lock
+/package-lock.json
+/pnpm-lock.yaml
+# IDE相关
+.idea/
+.vscode/
+# 依赖缓存
+/.npm/
+# 其他常见依赖产物
+/.cache/
