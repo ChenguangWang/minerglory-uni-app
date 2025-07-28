@@ -92,11 +92,11 @@ export default {
     },
     confirm() {
       if (!this.orderMachineNumber) {
-        this.$refs.uToast.show({ message: '请输入购买份数', type: 'warning' })
+        this.$refs.uToast.show({ title: '请输入购买份数', type: 'warning' })
         return
       }
       if (!this.treatyAgree) {
-        this.$refs.uToast.show({ message: '请同意协议', type: 'warning' })
+        this.$refs.uToast.show({ title: '请同意协议', type: 'warning' })
         return
       }
       uni.showLoading({title: '下单中'});
@@ -121,19 +121,19 @@ export default {
       }).then(res => {
         uni.hideLoading()
         if (res.data && res.data.code == 200) {
-          this.$refs.uToast.show({ message: '已下单', type: 'success' })
+          this.$refs.uToast.show({ title: '已下单', type: 'success' })
           setTimeout(() => {
             uni.navigateTo({ url: `/pages/my/order/order-machine-detail?orderId=${res.data.data.orderId}&productBatchId=${res.data.data.productBatchId}` })
           }, 800)
         } else if (res.data && res.data.code == 400) {
-          this.$refs.uToast.show({ message: '请检查您是否有未付款的订单 如果已付款请您等待后台审核', type: 'warning' })
+          this.$refs.uToast.show({ title: '请检查您是否有未付款的订单 如果已付款请您等待后台审核', type: 'warning' })
         } else if (res.data && res.data.code == 4000) {
-          this.$refs.uToast.show({ message: res.data.msg, type: 'warning' })
+          this.$refs.uToast.show({ title: res.data.msg, type: 'warning' })
         } else {
-          this.$refs.uToast.show({ message: '下单失败', type: 'error' })
+          this.$refs.uToast.show({ title: '下单失败', type: 'error' })
         }
       }).catch(() => {
-        this.$refs.uToast.show({ message: '下单失败', type: 'error' })
+        this.$refs.uToast.show({ title: '下单失败', type: 'error' })
       })
     }
   }
