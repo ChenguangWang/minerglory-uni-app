@@ -37,6 +37,8 @@
 </template>
 <script>
 import { request } from '@/utils/request';
+import {getLocalStorage} from '@/utils/cache';
+
 export default {
   name: 'CreateCoinAddress',
   data() {
@@ -75,7 +77,7 @@ export default {
         if (!valid) return;
         let userId = '';
         try {
-          userId = JSON.parse(uni.getStorageSync('userId')).value;
+          userId = getLocalStorage('userId');
         } catch (e) {}
         request({
           method: 'POST',
