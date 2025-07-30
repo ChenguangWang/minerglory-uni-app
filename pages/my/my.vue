@@ -34,7 +34,7 @@
       <view class="title">个人中心</view>
       <u-cell-group :border="false">
         <u-cell-item title="用户设置" isLink @click="goTo('/pages/my/user-setting/user-setting')" />
-        <u-cell-item title="安全设置" isLink @click="goTo('/pages/my/mySafeAddress')" />
+        <u-cell-item title="安全设置" isLink @click="goTo('/pages/my/safe-setting/safe-setting')" />
         <u-cell-item title="提币地址" :border-bottom="false" isLink @click="goTo('/pages/my/coin-address/coin-address')" />
       </u-cell-group>
     </view>
